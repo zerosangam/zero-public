@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginView">
+  <div class="wrap">
+    <div class="login-wrap">
+      <div class="login-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+      </div>
+      <h2>Admin access</h2>
+      <p>Enter password to manage files</p>
+      <input type="password" id="pass" placeholder="Password" autocomplete="current-password" autofocus>
+      <button class="btn btn-primary" id="loginBtn">Sign in</button>
+      <div class="login-err" id="loginErr"></div>
+    </div>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashView" style="display:none;">
+  <div class="wrap">
+    <header class="admin-header">
+      <div class="h-left">
+        <h1>Admin</h1>
+        <p>Manage everything uploaded</p>
+      </div>
+      <div class="h-right">
+        <button class="btn btn-ghost" onclick="load()">Refresh</button>
+        <button class="btn btn-ghost" onclick="logout()">Sign out</button>
+      </div>
+    </header>
+
+   <div class="stats">
+  <div class="stat"><div class="v" id="sTotal">0</div><div class="l">Files</div></div>
+  <div class="stat"><div class="v" id="sSize">0 B</div><div class="l">Size</div></div>
+  <div class="stat"><div class="v" id="sFolders">0</div><div class="l">Folders</div></div>
+  <div class="stat"><div class="v" id="sImg">0</div><div class="l">Images</div></div>
+</div>
+
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="Search by title, file name or uploader..." oninput="render()">
+    </div>
+
+    <div class="list" id="list">
+      <div class="empty">
+        <div class="e-title">Loading...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<script src="app.js"></script>
+<script>
+  initVault({ mode: 'admin' });
+</script>
+</body>
+</html>

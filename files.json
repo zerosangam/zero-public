@@ -1,0 +1,207 @@
+{
+  "files": {
+    "0ee86270aaec": {
+      "id": "0ee86270aaec",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADBmqpc-sDEZp2Onv6DLR4VbUzlv8wAAIfHwACDURQVRhPY_rLUXmIPQQ",
+      "messageId": 6,
+      "name": "1.number system.jpg",
+      "title": "1.number system(ahort revison)",
+      "size": 303623,
+      "mime": "image/jpeg",
+      "uploader": "admin",
+      "time": 1789490155548,
+      "parentId": "8583c0ae"
+    },
+    "0e8bce16578d": {
+      "id": "0e8bce16578d",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADB2qpdAgSKT8Fd5mUFr4IXpifgRNKAAIgHwACDURQVbmUKWhwGHKePQQ",
+      "messageId": 7,
+      "name": "2.input output  (1).png",
+      "title": "2.input output  (1)",
+      "size": 1511163,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490185041,
+      "parentId": "8583c0ae"
+    },
+    "c95829134e69": {
+      "id": "c95829134e69",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADCGqpdB2t4CeKK6h6oXZrf3gckEfVAAIhHwACDURQVbMhfAOPxtuMPQQ",
+      "messageId": 8,
+      "name": "2.input output  (2).png",
+      "title": "2.input output  (2)",
+      "size": 2251429,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490205746,
+      "parentId": "8583c0ae"
+    },
+    "77a2e4edf532": {
+      "id": "77a2e4edf532",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADCWqpdDBjeWwWuaeg9x65Ii2tWIhtAAIiHwACDURQVWst_Vq2BmQYPQQ",
+      "messageId": 9,
+      "name": "2.input output  (3).png",
+      "title": "2.input output  (3)",
+      "size": 2142475,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490224798,
+      "parentId": "8583c0ae"
+    },
+    "9675698df4d1": {
+      "id": "9675698df4d1",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADCmqpdECgB6dGxeKGrtrJ4O7C8fvuAAIjHwACDURQVfb0EipNAbLdPQQ",
+      "messageId": 10,
+      "name": "3.memory.png",
+      "title": "3.memory",
+      "size": 2208249,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490240533,
+      "parentId": "8583c0ae"
+    },
+    "b4d40cbf245f": {
+      "id": "b4d40cbf245f",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADC2qpdFFkZkmWPsy3wGlij8AnZVHtAAIkHwACDURQVZsJqijXpc9cPQQ",
+      "messageId": 11,
+      "name": "4.processor (1).png",
+      "title": "4.processor (1)",
+      "size": 2074705,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490258467,
+      "parentId": "8583c0ae"
+    },
+    "206741c685d4": {
+      "id": "206741c685d4",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADDGqpdG7lTMHl7HNBb6vBYmFqhO0NAAIlHwACDURQVbWWF7LbLqZ7PQQ",
+      "messageId": 12,
+      "name": "4.processor (2).png",
+      "title": "4.processor (2)",
+      "size": 2056414,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490286643,
+      "parentId": "8583c0ae"
+    },
+    "2b7d448aa2ef": {
+      "id": "2b7d448aa2ef",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADDWqpdHzDOD32Vs3irhtwncVQSQ8DAAImHwACDURQVSMiXZwRTJ_jPQQ",
+      "messageId": 13,
+      "name": "5.Computer Architecture (1).png",
+      "title": "5.Computer Architecture (1)",
+      "size": 2436376,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490300767,
+      "parentId": "8583c0ae"
+    },
+    "b1f77d8a0150": {
+      "id": "b1f77d8a0150",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADDmqpdI_TPqa_5-HyJO1Ih-s88iYDAAInHwACDURQVTXhgTKFvZhTPQQ",
+      "messageId": 14,
+      "name": "5.Computer Architecture (2).png",
+      "title": "5.Computer Architecture (2)",
+      "size": 1945249,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490319353,
+      "parentId": "8583c0ae"
+    },
+    "61bc1b0b1fd4": {
+      "id": "61bc1b0b1fd4",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADD2qpdJyu5A1lUwR3PytRYSTHEv5oAAIoHwACDURQVUeii4s6NJN3PQQ",
+      "messageId": 15,
+      "name": "6.Computer Language.jpg",
+      "title": "6.Computer Language",
+      "size": 404469,
+      "mime": "image/jpeg",
+      "uploader": "admin",
+      "time": 1789490332688,
+      "parentId": "8583c0ae"
+    },
+    "f04649f956a4": {
+      "id": "f04649f956a4",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADEGqpdK3qxhx8njopM_hwEbXuT-cxAAIpHwACDURQVateqyWVkkRWPQQ",
+      "messageId": 16,
+      "name": "7.oprating system  (1).png",
+      "title": "7.oprating system  (1)",
+      "size": 2174964,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490349432,
+      "parentId": "8583c0ae"
+    },
+    "d4227adf5dc2": {
+      "id": "d4227adf5dc2",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADEWqpdMGy70SXbO3aq70AARV5OHddKwACKh8AAg1EUFXyTfpJ9S8c4j0E",
+      "messageId": 17,
+      "name": "7.oprating system  (2).png",
+      "title": "7.oprating system  (2)",
+      "size": 2363384,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490369692,
+      "parentId": "8583c0ae"
+    },
+    "c94fbc46d13a": {
+      "id": "c94fbc46d13a",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADEmqpdM-rKy4FLmn6uHoLi9qK6VgzAAIrHwACDURQVWux0r8DT8KwPQQ",
+      "messageId": 18,
+      "name": "8.Computer Generations and Classifications(1).png",
+      "title": "8.Computer Generations and Classifications(1)",
+      "size": 2012412,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490383404,
+      "parentId": "8583c0ae"
+    },
+    "265edfc749fb": {
+      "id": "265edfc749fb",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADE2qpdOQmw9p2Vv23XuKXOe6Uu0l5AAIsHwACDURQVRjnlaebBtYsPQQ",
+      "messageId": 19,
+      "name": "8.Computer Generations and Classifications(2).png",
+      "title": "8.Computer Generations and Classifications(2)",
+      "size": 2204308,
+      "mime": "image/png",
+      "uploader": "admin",
+      "time": 1789490404821,
+      "parentId": "8583c0ae"
+    },
+    "a8719b07ceb2": {
+      "id": "a8719b07ceb2",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADFGqpdPCeRfT8ebUuVXAxp7ZsN6FqAAItHwACDURQVbXXtRnIXAyKPQQ",
+      "messageId": 20,
+      "name": "9.Computer Generations and Classifications(3).png",
+      "title": "9.Computer Generations and Classifications(3)",
+      "size": 2031049,
+      "mime": "image/png",
+      "uploader": "Anonymous",
+      "time": 1789490416811,
+      "parentId": "8583c0ae"
+    },
+    "2d50a5c6c0ac": {
+      "id": "2d50a5c6c0ac",
+      "parentId": "8583c0ae",
+      "fileId": "BQACAgUAAyEGAAMBAYjhNAADGGqpgwvW3noiGsBz3I_aPMMT0sGqAAI-HwACDURQVYFG7J0qZC5OPQQ",
+      "messageId": 24,
+      "name": "basic c program.png",
+      "title": "basic c program",
+      "size": 2377843,
+      "mime": "image/png",
+      "uploader": "Anonymous",
+      "time": 1789494027529,
+      "type": "file"
+    }
+  },
+  "folders": {
+    "8583c0ae": {
+      "id": "8583c0ae",
+      "parentId": null,
+      "name": "101-Fundamentals and Programming",
+      "createdBy": "Anonymous",
+      "time": 1789491440614,
+      "type": "folder"
+    }
+  }
+}

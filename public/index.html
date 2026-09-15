@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZERO_Browse</title>
+<meta name="description" content="Fast, simple file sharing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-line" id="progressLine"></div>
+
+<div class="wrap">
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">
+        <img src="images/logo.png" alt="ZERO">
+      </div>
+      <h1>ZERO</h1>
+    </div>
+    <div class="tagline">A shared collection of files. Click any to preview or download.</div>
+  </header>
+
+  <section class="section">
+  <div class="browse-toolbar">
+    <input type="text" id="searchInput" placeholder="🔍 Search files, folders, uploader, or path...">
+  </div>
+  <div class="breadcrumb" id="breadcrumb"></div>
+  <div id="view"></div>
+</section>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M18 6 6 18M6 6l12 12"/>
+    </svg>
+  </button>
+  <div class="lb-stage" id="lbStage"></div>
+  <div class="lb-foot">
+    <div class="lb-info" id="lbInfo"></div>
+    <div class="lb-btns" id="lbBtns"></div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<script src="app.js"></script>
+<script>
+  // Public page — view + download only
+  initVault({ mode: 'public' });
+</script>
+</body>
+</html>

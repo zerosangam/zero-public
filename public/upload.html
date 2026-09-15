@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-line" id="progressLine"></div>
+
+<div class="wrap">
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">
+        <img src="images/logo.png" alt="ZERO">
+      </div>
+      <h1>ZERO</h1>
+    </div>
+    <div class="tagline">A shared collection of files. Click any to preview or download.</div>
+  </header>
+
+  <section class="section">
+    <div class="upload-card">
+      <div class="dropzone" id="dropzone">
+        <div class="dz-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 16V4M12 4l-4 4M12 4l4 4"/>
+            <path d="M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/>
+          </svg>
+        </div>
+        <div class="dz-title">Drop a file here, or <u>browse</u></div>
+        <div class="dz-sub">Any file type · up to 50 MB</div>
+      </div>
+
+      <div class="preview-box" id="previewBox">
+        <div id="previewContent"></div>
+        <button class="remove-btn" id="removeBtn" title="Remove">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M18 6 6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="form-fields">
+        <div class="field">
+  <label>Save to folder</label>
+  <div id="folderCrumbs" class="folder-crumbs"></div>
+  <div id="folderBrowser" class="folder-browser"></div>
+</div>
+        <div class="field">
+          <label for="titleInput">Title</label>
+          <input type="text" id="titleInput" placeholder="e.g. Sunset over the ocean" maxlength="80">
+        </div>
+        <div class="field">
+          <label for="nameInput">Your name (optional)</label>
+          <input type="text" id="nameInput" placeholder="Anonymous" maxlength="40">
+        </div>
+        <div class="field">
+  <label>Upload to</label>
+  <div id="folderCrumbs" style="font-size:12.5px;color:var(--text-3);padding:8px 12px;background:var(--bg-elev);border:1px solid var(--border);border-radius:10px;margin-bottom:8px;">
+    Uploading to: <strong>Root</strong>
+  </div>
+  <div style="display:flex;gap:8px;">
+    <button type="button" class="btn btn-ghost" id="createFolderBtn" style="flex:1;">📁 New Folder</button>
+  </div>
+</div>
+        <div class="upload-submit">
+          <button class="btn btn-primary" id="uploadBtn" disabled>Upload</button>
+          <button class="btn btn-ghost" id="resetBtn" type="button">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <input type="file" id="fileInput" hidden>
+  </section>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<script src="app.js"></script>
+<script>
+  initVault({ mode: 'upload' });
+</script>
+</body>
+</html>
