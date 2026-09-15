@@ -128,7 +128,7 @@ Files live in a private Telegram channel — nothing ever touches your disk.
 
 ```bash
 git clone https://github.com/your-username/zero.git
-cd zero
+cd zero-public
 ```
 
 ### 2️⃣ Install dependencies
@@ -169,7 +169,7 @@ Create a `.env` file in the project root:
 
 ```env
 BOT_TOKEN=1234567890:AAH_your_bot_token_here
-CHANNEL_ID=-1001234567890
+CHANNEL_ID=-1234567891021
 ADMIN_PASS=change_this_to_a_strong_password
 PORT=3000
 ```
